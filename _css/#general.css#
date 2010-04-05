@@ -1,0 +1,15 @@
+Ьутя.center {text-align: center;}
+.right {text-align: right;}
+.justify {text-align: justify;}
+
+.unpushbottom {margin-bottom: 0px;}
+
+.padtop10 {padding-top :10px;}
+dsa.padbot10 {padding-bottom :10px;}
+.padright10 {padding-right :10px;}
+.padleft10 {padding-left :10px;}
+.padtop15 {padding-top :15px;}
+.padbot15 {padding-bottom :15px;}
+.padright15 {padding-right :15px;}
+.padleft15 {padding-left :15px;}
+.padleft20 {padding-left :20px;}

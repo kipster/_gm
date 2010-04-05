@@ -1,0 +1,178 @@
+﻿#header {
+background: url('../_imgs/background.jpg');
+background-repeat: none;
+}
+
+#header a{
+text-decoration:none;
+color: black;
+}
+
+#navbar {
+font-weight: bold;
+font-size: 1.3em;
+//font-family: Verdana;
+}
+
+	/*the nice navbar button*/	
+    a.navbar_button {
+		background: transparent url('../_imgs/col_button_grey.150.gif') no-repeat scroll top;
+        float: left;
+        height: 40px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-right: 75px;
+	}
+    
+    a.navbar_button span {
+        display: block;
+        text-align:center;
+        padding: 8px 0px 0px 0px;
+        color: #666666;
+    }
+    
+    a.navbar_button:hover {
+		background-position: bottom;
+	}
+
+	a.navbar_button:hover span {
+		color: #333333;
+	}
+
+	a.navbar_button:active {
+        background-position: top;
+		outline: none; /* hide dotted outline in Firefox */
+	}
+
+	a.navbar_button:active span {
+        background-position: bottom;
+		padding-top: 10px; /* push text down 2px */
+	}
+    
+    a.navbar_selected {
+    background: transparent url('../_imgs/col_button_blue.150.gif') no-repeat scroll top;
+
+    }
+    
+    a.navbar_selected span {
+    color: #000099;
+    }
+    
+    a.navbar_selected:hover {
+    background-position: bottom;
+
+    }
+    
+    a.navbar_selected:hover span {
+    color: white;
+    }
+    
+    a.navbar_img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 0px 0px;
+    }
+
+/*the nice colum button*/	
+a.col_button {
+    background: transparent url('../_imgs/col_button_blue.150.gif') no-repeat scroll;
+    float: left;
+    height: 40px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+a.col_button span {
+    display: block;
+    padding: 10px 10px 0px 0px;
+    font-weight: bold;
+    color: #000099;
+    text-align: right;
+}
+
+a.col_button:hover {
+    background-position: bottom;
+}
+
+a.col_button:hover span {
+    font-weight: bold;
+    color: white;
+}
+
+a.col_button:active {
+    background-position: top;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.col_button:active span {
+    background-position: bottom left;
+    padding: 12px 10px 0px 0px; /* push text down 1px */
+}
+
+a.col_button_selected {
+background: transparent url('../_imgs/col_button_grey.150.gif') no-repeat scroll top;
+}
+
+a.col_button_selected span {
+color: #666666;
+}
+
+a.col_button_selected:hover span {
+color: #333333;
+}
+
+#subbody1 {
+background: transparent url('../_imgs/subbody1.gif') no-repeat;
+margin-bottom:20px;
+color: #333333;
+}
+#subbody1, #subbody2 p {
+font-size: 1.1em;}
+
+
+#subbody h1 {
+color: #333333;
+}
+
+.subbody1_footer {
+background: transparent url('../_imgs/subbody1_footer.gif') no-repeat;
+padding-top:15px;
+clear: both;
+}
+
+#subbody2 {
+background: transparent url('../_imgs/subbody2.gif') no-repeat;
+margin-bottom:20px;
+}
+
+.subbody2_footer {
+background: transparent url('../_imgs/subbody2_footer.gif') no-repeat;
+padding-top:15px;
+clear: both;
+}
+
+.must {
+padding-left: 10px;
+color: #8a1f11;
+font-style:italic;
+}
+
+.optional {
+padding-left: 10px;
+color: grey;
+font-style:italic;
+}
+
+#copyright {
+clear:both;
+text-align: center;
+color: grey;
+}
+
+#copyright a {
+text-decoration: none;
+color: grey;
+font-weight: bold;
+}
+    
